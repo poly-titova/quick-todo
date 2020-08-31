@@ -2,12 +2,12 @@ import firebase from "@firebase/app";
 import "@firebase/firestore";
 
 const config = {
-  apiKey: "<apiKey>",
-  authDomain: "<authDomain>",
-  databaseURL: "<databaseURL>",
-  projectId: "<projectId>",
+  apiKey: "AIzaSyD5F9dJKe7VFR-aacVIChwIohhlQ9jaGM4",
+  authDomain: "",
+  databaseURL: "https://console.firebase.google.com/project/quick-todo-1a013",
+  projectId: "quick-todo-1a013",
   storageBucket: "",
-  messagingSenderId: "<messageingSenderId>"
+  messagingSenderId: ""
 };
 
 const app = firebase.initializeApp(config);
