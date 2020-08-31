@@ -3,3 +3,12 @@
 .App {
   text-align: center;
 }
+
+.App-header h1 {
+  color: whitesmoke;
+}
+
+.App-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
