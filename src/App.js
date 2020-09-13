@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Layout, Input, Button, List, Icon } from "antd";
+import { Layout, Input, Button, List } from "antd";
+import { CheckOutlined } from "@ant-design/icons"
 
 // мы импортировали firestore модуль
 import firestore from "./firestore";
@@ -94,10 +95,9 @@ class App extends Component {
             renderItem={todo => (
               <List.Item>
                 {todo.content}
-                <Icon
+                <CheckOutlined
                   onClick={evt => this.completeTodo(todo.id)}
                   className="App-todo-complete"
-                  type="check"
                 />
               </List.Item>
             )}

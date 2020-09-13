@@ -18,19 +18,12 @@
   margin-right: 5px;
 }
 
-.App-add-todo-button {
-}
-
 .App-todos {
   background-color: white;
   max-width: 400px;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.App-todo {
-  /* position: relative; */
 }
 
 .App-todo-complete {
